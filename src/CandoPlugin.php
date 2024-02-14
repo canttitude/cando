@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Canttitude\Cando;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class CandoPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'cando';
     }
 
     public function register(Panel $panel): void

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Canttitude\Cando\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CandoCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'cando';
 
     public $description = 'My command';
 
